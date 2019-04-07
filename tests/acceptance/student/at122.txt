@@ -1,0 +1,8 @@
+debug_test(easy)
+custom_setup(5,4,4,4)
+redo
+redo
+redo
+undo
+undo
+redo

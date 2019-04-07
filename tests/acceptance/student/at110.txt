@@ -1,0 +1,6 @@
+debug_test(easy)
+fire([C,3])
+bomb([B,4],[C,4])
+new_game(medium)
+give_up
+debug_test(easy)

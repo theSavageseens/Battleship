@@ -1,0 +1,16 @@
+debug_test(easy)
+fire([A,1])
+fire([A,2])
+fire([A,3])
+undo
+undo
+undo
+undo
+redo
+redo
+redo
+redo
+fire([C,1])
+fire([C,2])
+undo
+undo

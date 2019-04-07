@@ -1,0 +1,15 @@
+debug_test(easy)
+fire([A,4])
+fire([B,4])
+undo
+undo
+redo
+redo
+bomb([C,4],[D,4])
+undo
+redo
+bomb([C,3],[C,2])
+undo
+redo
+debug_test(medium)
+undo

@@ -1,0 +1,8 @@
+-- STUDENT test 11
+debug_test(easy)
+fire([A,1])
+fire([A,2])
+fire([A,3])
+fire([A,4])
+bomb([B,3],[B,4])
+give_up

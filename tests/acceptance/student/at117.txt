@@ -1,0 +1,100 @@
+-- easy Dx4 medium Fx6 hard Hx8 advanced Lx12
+give_up
+give_up
+custom_setup_test (5,3,2,3) 
+give_up
+fire([B,2])
+bomb([D,2],[D,3])
+redo
+undo
+debug_test(easy)
+fire([B,2])
+fire([C,3])
+fire([C,4])
+give_up
+undo
+redo
+custom_setup_test (6,4,5,5)
+custom_setup_test (6,4,15,5)
+redo
+undo
+fire([D,1])
+fire([C,1])
+fire([C,3])
+fire([B,2])
+bomb([D,2],[D,3])
+bomb([A,1],[A,2])
+bomb([B,3],[B,4])
+debug_test(hard)    --- Hx8
+redo
+undo
+redo
+fire([B,2])
+fire([C,3])
+fire([H,4])
+give_up
+custom_setup_test (6,4,5,5)
+fire([F,5])
+fire([C,7])
+fire([C,9])
+bomb([D,4],[D,3])
+custom_setup_test (6,4,12,3)
+bomb([B,3],[B,4])
+fire([E,1])
+fire([E,3])
+bomb([H,1],[G,1])
+bomb([B,3],[B,4])
+debug_test(advanced) --- Lx12
+fire([C,1])
+fire([B,3])
+bomb([A,1],[A,2])
+fire([D,7])
+give_up
+give_up
+debug_test(easy)
+custom_setup_test (6,5,25,5)
+fire([F,3])
+bomb([G,10],[G,11])
+redo
+fire([C,1])
+fire([B,3])
+bomb([A,1],[A,2])
+undo
+fire([D,7])
+fire([F,3])
+bomb([G,10],[G,11])
+debug_test(advanced) --- Lx12
+redo
+fire([C,1])
+redo
+fire([B,3])
+bomb([A,1],[A,2])
+fire([D,7])
+fire([F,3])
+bomb([G,10],[G,11])
+fire([B,2])
+fire([C,3])
+fire([H,4])
+fire([F,5])
+debug_test(easy)
+undo
+redo
+fire([C,7])
+fire([C,9])
+bomb([D,4],[D,3])
+redo
+bomb([B,3],[B,4])
+fire([E,1])
+redo
+undo
+custom_setup_test (7,5,6,7)
+custom_setup_test (5,4,11,7)
+fire([E,3])
+bomb([H,1],[G,1])
+bomb([B,3],[B,4])
+undo
+give_up
+debug_test(easy)
+redo
+fire([B,2])
+fire([C,3])

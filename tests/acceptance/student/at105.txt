@@ -1,0 +1,8 @@
+fire([A,1])
+undo
+redo
+debug_test(easy)
+fire([C,1])
+undo
+undo
+undo

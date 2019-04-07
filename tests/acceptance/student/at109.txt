@@ -1,0 +1,13 @@
+debug_test(easy)
+bomb([A,1],[A,2])
+bomb([A,3],[A,4])
+fire([C,1])
+fire([C,2])
+fire([C,3])
+fire([C,4])
+fire([D,1])
+fire([D,2])
+fire([D,3])
+fire([D,4])
+give_up
+debug_test(medium)

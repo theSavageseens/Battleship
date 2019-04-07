@@ -1,0 +1,24 @@
+fire([B,4])
+bomb([C,4],[C,3])
+debug_test(easy)
+fire([B,4])
+debug_test(advanced)
+bomb([E,1],[E,2])
+bomb([F,2],[F,3])
+bomb([C,4],[D,4])
+debug_test(easy)
+undo
+undo
+redo
+new_game(easy)			-- Game already started
+undo
+redo
+bomb([E,4],[F,4])		-- No bombs remaining
+fire([E,4])
+fire([E,4])			-- Already fired there
+undo
+undo
+redo
+redo
+fire([F,4])
+

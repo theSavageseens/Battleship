@@ -1,0 +1,9 @@
+debug_test(easy)
+custom_setup(6,1,30,3)
+custom_setup(4,1,1,1)
+custom_setup(6,4,30,3)
+undo
+undo
+redo
+custom_setup(6,5,30,4)
+undo

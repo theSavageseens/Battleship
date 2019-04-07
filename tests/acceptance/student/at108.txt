@@ -1,0 +1,6 @@
+debug_test(easy)
+fire([C,3])
+give_up
+debug_test(medium)
+give_up
+debug_test(easy)
